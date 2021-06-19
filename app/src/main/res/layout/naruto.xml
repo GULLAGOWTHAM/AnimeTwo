@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orangelayout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="106dp"
+        android:id="@+id/opmphoto"
+        android:src="@drawable/narutolayout" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opmphoto"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginStart="60dp"
+        android:text="@string/description"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:id="@+id/description"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:text="@string/narutodescription"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:id="@+id/matter"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ratings"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:layout_below="@id/matter"
+        android:id="@+id/rating"
+        android:layout_marginStart="60dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMDb: 8.3/10  \nRotten Tomatoes: 79% \nMyAnimeList: 7.9/10"
+        android:textColor="@color/white"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@id/rating"
+        android:layout_below="@id/matter"
+        android:id="@+id/review"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/watch_the_video_on_youtube"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/review"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:id="@+id/narutolink"
+        android:gravity="center"/>
+
+</RelativeLayout>
+</ScrollView>

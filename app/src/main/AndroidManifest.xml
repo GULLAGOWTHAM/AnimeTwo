@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.animetwo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/roundlogo"
+        android:label="ReviewMe"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnimeTwo">
+        <activity android:name=".gokuclicked"></activity>
+        <activity android:name=".fullmetalclicked" />
+        <activity android:name=".narutoclicked" />
+        <activity android:name=".demonslayerclicked" />
+        <activity android:name=".myheroclicked" />
+        <activity android:name=".titanclicked" />
+        <activity android:name=".deathnoteclicked" />
+        <activity android:name=".opmclicked" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

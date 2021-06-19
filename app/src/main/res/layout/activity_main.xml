@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/up"
+    android:layout_marginTop="-2dp"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/a_nuh_mei"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        />
+
+    <GridView
+        android:paddingTop="64dp"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"
+        android:stretchMode="columnWidth"
+        android:layout_marginBottom="5dp"
+        >
+    </GridView>
+
+
+</RelativeLayout>

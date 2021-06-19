@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenartlayout">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/atphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="106dp"
+        android:src="@drawable/titanlayout" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atphoto"
+        android:layout_marginStart="60dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/description"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/matter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/attackontiandescription"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/matter"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/ratings"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/matter"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/rating"
+        android:text="9/10IMDb \n100%Rotten Tomatoes \n8.6/10MyAnimeList"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/review"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/watch_the_video_on_youtube"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:id="@+id/titanlink"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>
